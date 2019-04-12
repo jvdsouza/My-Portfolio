@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './Navbar.css';
 // reactstrap components
 import {
   Collapse,
@@ -121,8 +122,8 @@ class PagesNavbar extends React.Component {
                   target="_blank"
                   title="Connect with me on LinkedIn"
                 >
-                  <i class="fab fa-linkedin"></i>
-                  <p className="d-lg-none d-xl-none">Twitter</p>
+                  <i className="fab fa-linkedin"></i>
+                  <p className="d-lg-none d-xl-none">LinkedIn</p>
                 </NavLink>
               </NavItem>
               <NavItem className="p-0">
@@ -131,10 +132,10 @@ class PagesNavbar extends React.Component {
                   href="https://twitter.com/CreativeTim"
                   rel="noopener noreferrer"
                   target="_blank"
-                  title="Connect with me on LinkedIn"
+                  title="Check out my GitHub"
                 >
-                  <i class="fab fa-github-square"></i>
-                  <p className="d-lg-none d-xl-none">Twitter</p>
+                  <i className="fab fa-github-square"></i>
+                  <p className="d-lg-none d-xl-none">Github</p>
                 </NavLink>
               </NavItem>
               <NavItem>
