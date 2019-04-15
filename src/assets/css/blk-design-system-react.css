@@ -37,6 +37,8 @@
   --white: #ffffff;
   --gray: #6c757d;
   --gray-dark: #32325d;
+  --purple2: #DA0CE8;
+  --pink-red: #fd5d93;
   --light: #ced4da;
   --lighter: #e9ecef;
   --primary: #e14eca;
@@ -9769,7 +9771,7 @@ img {
     position: relative;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
-    color: #ffffff;
+    color: #fb6340;
     text-transform: capitalize;
     font-size: 1rem; }
     .navbar .navbar-brand span {
@@ -9809,7 +9811,7 @@ img {
     color: #ffffff; }
   .navbar-nav li i {
     vertical-align: middle;
-    font-size: 18px;
+    font-size: 26px;
     padding-right: 5px; }
 
 .navbar-collapse-header {
@@ -10252,7 +10254,7 @@ p {
       color: rgba(255, 255, 255, 0.8); }
 
 ul li, ol li {
-  color: #ffffff; }
+  color: #FF6935; }
 
 pre {
   color: rgba(255, 255, 255, 0.8); }
@@ -11649,6 +11651,10 @@ textarea.form-control {
     .index-page .page-header .container > .content-center.brand .h1-seo span,
     .index-page .page-header .container > .content-center.brand h3 span {
       font-weight: 600; }
+  .index-page .page-header .container > .content-center.brand h3 {
+    color: #fb6340; }
+  .index-page .page-header .container > .content-center.brand h4 {
+    color: #8965e0; }
   .index-page .page-header .category-absolute {
     position: absolute;
     top: 100vh;

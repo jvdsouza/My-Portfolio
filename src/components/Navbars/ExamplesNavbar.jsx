@@ -75,6 +75,7 @@ class PagesNavbar extends React.Component {
               to="/"
               rel="noopener noreferrer"
               tag={Link}
+              id="brand-name"
             >
               <span>Jason Vincent D'souza</span>
             </NavbarBrand>
@@ -117,7 +118,7 @@ class PagesNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://twitter.com/CreativeTim"
+                  href="https://www.linkedin.com/in/jason-d-souza-861762100/"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Connect with me on LinkedIn"
@@ -129,7 +130,7 @@ class PagesNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://twitter.com/CreativeTim"
+                  href="https://github.com/jvdsouza"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Check out my GitHub"
