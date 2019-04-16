@@ -1,10 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import './Navbar.css';
 // reactstrap components
 import {
   Collapse,
-  NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
@@ -70,15 +68,6 @@ class PagesNavbar extends React.Component {
       >
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand
-              data-placement="bottom"
-              to="/"
-              rel="noopener noreferrer"
-              tag={Link}
-              id="brand-name"
-            >
-              <span>Jason Vincent D'souza</span>
-            </NavbarBrand>
             <button
               aria-expanded={this.state.collapseOpen}
               className="navbar-toggler navbar-toggler"
@@ -99,9 +88,7 @@ class PagesNavbar extends React.Component {
             <div className="navbar-collapse-header">
               <Row>
                 <Col className="collapse-brand" xs="6">
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
-                    BLK•React
-                  </a>
+                    <p className="menu">Menu</p>
                 </Col>
                 <Col className="collapse-close text-right" xs="6">
                   <button
@@ -127,6 +114,7 @@ class PagesNavbar extends React.Component {
                   <p className="d-lg-none d-xl-none">LinkedIn</p>
                 </NavLink>
               </NavItem>
+
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
@@ -139,6 +127,7 @@ class PagesNavbar extends React.Component {
                   <p className="d-lg-none d-xl-none">Github</p>
                 </NavLink>
               </NavItem>
+
               <NavItem>
                 <NavLink 
                   href="https://gentle-citadel-27836.herokuapp.com/"
@@ -147,9 +136,22 @@ class PagesNavbar extends React.Component {
                   Blog
                 </NavLink>
               </NavItem>
+
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/blk-design-system-react/issues">
-                  Contact
+                <NavLink href="#About">
+                  About Me
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="#Projects">
+                  Projects
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="#Contact">
+                  Contact Me
                 </NavLink>
               </NavItem>
             </Nav>

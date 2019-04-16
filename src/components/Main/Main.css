@@ -1,0 +1,47 @@
+h2 {
+    color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+p {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 3em;
+}
+
+.main-body {
+    color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.info-card {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#About {
+    color: #FD5D93;
+}
+
+#Projects {
+    color: #FB6340;
+}
+
+#Contact {
+    color: #8965E0;
+}
+
+@media only screen 
+  and (min-device-width: 999px) {
+    .info-card {
+        width: 45%;
+    }
+}

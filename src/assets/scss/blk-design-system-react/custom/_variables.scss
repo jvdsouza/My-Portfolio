@@ -49,12 +49,15 @@ $pink:    #f3a4b5 !default;
 $pink-red: #fd5d93 !default;
 $hotter-pink: #F70B5A !default;
 $red:     #f5365c !default;
+$light-orange: #FFA88A !default;
 $orange:  #fb6340 !default;
+$dark-orange: #FF490B !default;
 $yellow:  #ffd600 !default;
 $green:   #2dce89 !default;
 $bright-green: #0AEB7F !default;
 $teal:    #11cdef !default;
 $cyan:    #2bffc6 !default;
+$light-grey: #f4f5f7 !default;
 
 $line-height-lg:              1.625rem !default;
 $line-height-sm:              1.5 !default;
@@ -241,7 +244,7 @@ $love-color: $red !default;
 
 // Body
 
-$body-bg: $background-grey !default;
+$body-bg: #fff !default; //background color
 $body-color: $gray-700 !default;
 
 
@@ -903,6 +906,7 @@ $card-inner-border-radius:          calc(#{$card-border-radius} - #{$card-border
 $card-cap-bg:                       $gray-100 !default;
 $card-bg:                           $white !default;
 $card-black-background:             #1f2251 !default;
+$card-custom-background:            #f4f5f7 !default;
 $card-img-overlay-padding:          1.25rem !default;
 
 //$card-group-margin:                 ($grid-gutter-width / 2);

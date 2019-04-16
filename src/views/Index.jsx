@@ -1,9 +1,9 @@
 import React from "react";
-
 // core components
 import PagesNavbar from "components/Navbars/ExamplesNavbar.jsx";
 import PageHeader from "components/PageHeader/PageHeader.jsx";
-import Footer from "components/Footer/Footer.jsx";
+import MainBody from "components/Main/Main.jsx";
+// import Footer from "components/Footer/Footer.jsx";
 
 class Index extends React.Component {
   componentDidMount() {
@@ -14,16 +14,16 @@ class Index extends React.Component {
   }
   render() {
     return (
-      <>
-        {/* <IndexNavbar /> */}
+      <div>
         <PagesNavbar />
         <div className="wrapper">
           <PageHeader />
-          <div className="main">
+          <div id="main">
+            <MainBody />
           </div>
           {/* <Footer /> */}
         </div>
-      </>
+      </div>
     );
   }
 }

@@ -8,15 +8,18 @@ h1 {
     padding-bottom: 2px;
     margin-bottom: 0px;
     animation-duration: 2s;
+    animation-delay: 1s;
 }
 
 h3 {
     animation-duration: 2s;
+    animation-delay: 1.5s;
     margin-bottom: 2px;
 }
 
 h4 {
     animation-duration: 2s;
+    animation-delay: 2s;
 }
 
 .line {
@@ -26,6 +29,19 @@ h4 {
     margin-left: 15px;
     margin-right: 15px;
     width: 50px;
+}
+
+.fa-angle-down {
+    font-size: 5em;
+    color: white;
+    text-shadow: 0 0 5px black;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+}
+
+.animated-arrow {
+    animation-delay: 3s;
+    bottom: -35vh;
 }
 
 @media only screen 
@@ -46,4 +62,3 @@ h4 {
         margin-top: 2.1em;
     }
 }
-

@@ -1,3 +1,16 @@
+.menu {
+    color: black;
+}
+
+.navbar-translate {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+
+.nav-link {
+    font-weight: 400;
+}
+
 @media only screen 
   and (max-device-height: 430px)
   and (-webkit-min-device-pixel-ratio: 2)
