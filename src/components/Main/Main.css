@@ -6,8 +6,10 @@ h2 {
 
 p {
     color: black;
-    font-weight: 600;
-    margin-bottom: 3em;
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .main-body {
@@ -15,7 +17,6 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    padding-top: 100px;
     height: 100vh;
 }
 
@@ -25,23 +26,72 @@ p {
     align-items: center;
     margin-left: 10px;
     margin-right: 10px;
+    padding-top: 100px;
 }
 
-#About {
+.About-highlight {
+    display: inline;
     color: #FD5D93;
 }
 
-#Projects {
+#About > h2 {
+    color: #FD5D93;
+}
+
+.Projects-highlight {
+    display: inline;
     color: #FB6340;
 }
 
-#Contact {
+#Projects > h2 {
+    color: #FB6340;
+}
+
+#Projects a {
+    color: #FB6340;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+td {
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+.Underline {
+    text-decoration: underline;
+}
+
+.Project-info {
+    width: 70%;
+}
+
+.Contact-highlight {
+    display: inline;
     color: #8965E0;
+}
+
+#Contact > h2, #Contact a {
+    color: #8965E0;
+}
+
+#Contact {
+    padding-top: 20px;
+    margin-bottom: 100px;
 }
 
 @media only screen 
   and (min-device-width: 999px) {
     .info-card {
-        width: 45%;
+        width: 40%;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 999px) {
+    .info-card {
+        width: 80%;
     }
 }
