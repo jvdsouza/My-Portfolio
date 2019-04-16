@@ -7,19 +7,10 @@ span {
 h1 {
     padding-bottom: 2px;
     margin-bottom: 0px;
-    animation-duration: 2s;
-    animation-delay: 1s;
 }
 
 h3 {
-    animation-duration: 2s;
-    animation-delay: 1.5s;
     margin-bottom: 2px;
-}
-
-h4 {
-    animation-duration: 2s;
-    animation-delay: 2s;
 }
 
 .line {
@@ -36,7 +27,7 @@ h4 {
     color: white;
     text-shadow: 0 0 5px black;
     animation-duration: 1s;
-    animation-delay: 2.5s;
+    animation-delay: 1s;
 }
 
 .animated-arrow {

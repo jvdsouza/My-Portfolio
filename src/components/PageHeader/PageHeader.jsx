@@ -10,11 +10,11 @@ class PageHeader extends React.Component {
       <div className="page-header header-filter">
         <Container>
           <div className="content-center brand">
-            <h1 className="h1-seo animated fadeInUp">Jason D'souza</h1>
-            <h3 className="animated fadeInUp">
+            <h1 className="h1-seo">Jason D'souza</h1>
+            <h3 >
               <span><div className="line"></div> Full Stack Web Developer <div className="line"></div></span>
             </h3>
-            <h4 className="animated fadeInUp">
+            <h4>
             Fervently working on Javascript and Python projects
             </h4>
             <a href="#main">
