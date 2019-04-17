@@ -10,7 +10,7 @@ class MainBody extends React.Component {
           <div className="info-card" id="About">
             <h2>About Me</h2>
               <p>
-                I'm a young, motivated and determined self-taught developer with skills 
+                I'm a young, motivated and determined <span className="About-highlight">self-taught</span> developer with skills 
                 in <span className="About-highlight">full-stack Javascript Web developement</span>,
                 a Coding Mentor in <span className="About-highlight">Python</span> for John Monash Science 
                 School and a Graduate of <span className="About-highlight">Civil Engineering (Honours) from Monash University</span>. 
@@ -21,9 +21,9 @@ class MainBody extends React.Component {
                 software development.
               </p>
               <p>
-                My current ambition now inolves <span className="About-highlight">Web development</span> as I have grown wonder over the magic of the 
-                technologies related to the Internet. I have taught myself copious amounts of information from various resources
-                how to develop websites, and I have absolutely enjoyed every minute of it.
+                I'm currently working hard on developing my knowledge of the various technologies Javascript has to offer
+                when it comes to developing full-stack applications for the web. I look forward to working on more projects
+                with teams, on open source projects, or by myself.
               </p>
                 My current skillset consists of:
                 <div>
