@@ -34,10 +34,13 @@ p {
     color: #FD5D93;
 }
 
-#About > h2, #About a {
+#About > h2, #About a  {
     color: #FD5D93;
-    text-decoration: none;
+}
+
+#About a {
     font-weight: 400;
+    text-decoration: none;
 }
 
 .Projects-highlight {
