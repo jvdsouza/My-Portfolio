@@ -4,7 +4,7 @@
 
 <img src="front-page.png"/>
 
-<p>It can be reached live here at <a target="_blank" rel="noopener noreferrer" href="https://www.jasondsouza.dev">jasondsouza.dev</a></p>
+<p>It can be reached live here at <a target="_blank" rel="noopener noreferrer" href="https://jasondsouza.dev">jasondsouza.dev</a></p>
 
 <p>
 <span>To run this in developer mode</span>
