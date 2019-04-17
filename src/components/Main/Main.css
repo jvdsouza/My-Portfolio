@@ -34,21 +34,23 @@ p {
     color: #FD5D93;
 }
 
-#About > h2 {
+#About > h2, #About a {
     color: #FD5D93;
+    text-decoration: none;
+    font-weight: 400;
 }
 
 .Projects-highlight {
     display: inline;
-    color: #FB6340;
+    color: #5dc8fd;
 }
 
 #Projects > h2 {
-    color: #FB6340;
+    color: #5dc8fd;
 }
 
 #Projects a {
-    color: #FB6340;
+    color: #5dc8fd;
 }
 
 a:hover {
@@ -70,11 +72,11 @@ td {
 
 .Contact-highlight {
     display: inline;
-    color: #8965E0;
+    color: #ff8900;
 }
 
 #Contact > h2, #Contact a {
-    color: #8965E0;
+    color: #ff8900;
 }
 
 #Contact {
@@ -93,5 +95,10 @@ td {
   and (max-device-width: 999px) {
     .info-card {
         width: 80%;
+    }
+
+    #About a {
+        font-weight: 300;
+        text-decoration: underline;
     }
 }

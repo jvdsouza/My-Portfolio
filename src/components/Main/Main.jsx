@@ -10,7 +10,7 @@ class MainBody extends React.Component {
           <div className="info-card" id="About">
             <h2>About Me</h2>
               <p>
-                I'm a young, motivated and determined <span className="About-highlight">self-taught</span> developer with skills 
+                I am a young, motivated and determined <span className="About-highlight">self-taught</span> developer with skills 
                 in <span className="About-highlight">full-stack Javascript Web developement</span>,
                 a Coding Mentor in <span className="About-highlight">Python</span> for John Monash Science 
                 School and a Graduate of <span className="About-highlight">Civil Engineering (Honours) from Monash University</span>. 
@@ -21,9 +21,11 @@ class MainBody extends React.Component {
                 software development.
               </p>
               <p>
-                I'm currently working hard on developing my knowledge of the various technologies Javascript has to offer
-                when it comes to developing full-stack applications for the web. I look forward to working on more projects
-                with teams, on open source projects, or by myself.
+                I plan on continuing my self development in 
+                <span className="About-highlight"> computer science</span> and <span className="About-highlight">software engineering</span>.
+                I am also looking for new opportunities to challenge myself and the knowledge I have procured
+                from the various courses and resources I have taken and read, further developing my extensive
+                knowledge, such as by taking on <a href="#Projects">projects</a> myself, in teams or open source projects.
               </p>
                 My current skillset consists of:
                 <div>
@@ -39,9 +41,13 @@ class MainBody extends React.Component {
                   </ul>
                   <span>And planning to learn:</span>
                   <ul>
-                    <li>GraphQL</li>
+                    <li>GraphQL + Apollo + Prisma</li>
                     <li>Redis</li>
                     <li>Jest Testing</li>
+                    <li>CI/CD</li>
+                    <li>Docker + Docker Compose</li>
+                    <li>Rust + Web Assembly</li>
+                    <li>Electron</li>
                   </ul>
                 </div>
               <p>
