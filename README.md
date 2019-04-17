@@ -1,6 +1,6 @@
 <h1>My Portfolio</h1>
 
-<h4>My portfolio and also my submission to coding challenge 16 - for the Complete Web Developer course on udemy by Andrei Neagoie<h4>
+<h4>My portfolio and also my submission to coding challenge 16 - for the Complete Web Developer course on udemy by Andrei Neagoie</h4>
 
 <p>
 <span>To run this in developer mode</span>
