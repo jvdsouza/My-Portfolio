@@ -2,7 +2,7 @@
 
 <h4>My portfolio and also my submission to coding challenge 16 - for the Complete Web Developer course on udemy by Andrei Neagoie</h4>
 
-<a href="jasondsouza.dev"><img src="front-page.png"/></a>
+<img src="front-page.png"/>
 
 <p>It can be reached live here at <a href="jasondsouza.dev">jasondsouza.dev</a></p>
 
