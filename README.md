@@ -2,6 +2,8 @@
 
 <h4>My portfolio and also my submission to coding challenge 16 - for the Complete Web Developer course on udemy by Andrei Neagoie</h4>
 
+<img src="front-page.png"/>
+
 <p>
 <span>To run this in developer mode</span>
 <ul>
