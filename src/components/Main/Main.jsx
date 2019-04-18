@@ -11,18 +11,19 @@ class MainBody extends React.Component {
             <h2>About Me</h2>
               <p>
                 I am a young, motivated and determined <span className="About-highlight">self-taught</span> developer with skills 
-                in <span className="About-highlight">full-stack Javascript Web developement</span>,
-                a Coding Mentor in <span className="About-highlight">Python</span> for John Monash Science 
-                School and a Graduate of <span className="About-highlight">Civil Engineering (Honours) from Monash University</span>. 
+                in <span className="About-highlight">full-stack Javascript Web developement</span>, and a Graduate of 
+                <span className="About-highlight"> Civil Engineering (Honours) from Monash University</span>. 
               </p>
               <p>
-                I have worked in various areas, such as Retail, Geotechnical Engineering, and
-                Traffic Engineering. However I find my heart remains with computer science and 
-                software development.
+                Having worked in various areas I have gained numerous soft skills. These areas such as Retail, Geotechnical Engineering, and
+                Traffic Engineering have pushed me to work on my abilities outside just solving problems. However I find my heart remains with computer science and 
+                software development. Currently I am a Coding Mentor in <span className="About-highlight">Python</span> for John Monash Science 
+                School and putting my best in helping <span className="About-highlight">teach young teenagers in year 10 and year 11 about computer science</span>.
               </p>
               <p>
                 I plan on continuing my self development in 
-                <span className="About-highlight"> computer science</span> and <span className="About-highlight">software engineering</span>.
+                <span className="About-highlight"> computer science</span>, <span className="About-highlight">software engineering</span>,
+                and <span className="About-highlight">web development</span>.
                 I am also looking for new opportunities to challenge myself and the knowledge I have procured
                 from the various courses and resources I have taken and read, further developing my extensive
                 knowledge, such as by taking on <a href="#Projects">projects</a> myself, in teams or open source projects.
