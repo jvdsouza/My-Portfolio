@@ -11,7 +11,7 @@ class MainBody extends React.Component {
             <h2>About Me</h2>
               <p>
                 I am a young, motivated and determined <span className="About-highlight">self-taught</span> developer with skills 
-                in <span className="About-highlight">full-stack Javascript Web developement</span>, and a Graduate of <span className="About-highlight">Civil Engineering (Honours) from Monash University</span>. 
+                in <span className="About-highlight">full-stack Javascript Web developement, Software Engineering</span>, and a Graduate of <span className="About-highlight">Civil Engineering (Honours) from Monash University</span>. 
               </p>
               <p>
                 Having worked in various areas I have gained numerous soft skills. These areas such as Retail, Geotechnical Engineering, and

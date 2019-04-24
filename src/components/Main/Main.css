@@ -103,6 +103,7 @@ td {
     #About a {
         font-weight: 300;
         text-decoration: underline;
+        background-color: transparent;
     }
 }
 
