@@ -71,9 +71,9 @@ class MainBody extends React.Component {
                   </a>
                   </td>
                   <td className="Project-info">
-                    <span className="Projects-highlight">Full stack</span> blog, featuring a front-end view and a back-end server
+                    <p><span className="Projects-highlight">Full stack</span> blog, featuring a front-end view and a back-end server
                     alongside a <span className="Projects-highlight">CRUD app</span>. Technologies used involve <span className="Projects-highlight">MongoDB Atlas, 
-                    Express, ReactJs and NodeJs</span>.
+                    Express, ReactJs and NodeJs</span>.</p>
                   </td>
                 </tr>
                 <tr>
@@ -86,9 +86,9 @@ class MainBody extends React.Component {
                     </a>
                   </td>
                   <td className="Project-info">
-                  <span className="Projects-highlight">Front-End</span> app utilising the <span className="Projects-highlight">Apixu API</span> to deliver weather temperature
+                  <p><span className="Projects-highlight">Front-End</span> app utilising the <span className="Projects-highlight">Apixu API</span> to deliver weather temperature
                     and weather status, alongside using <span className="Projects-highlight">Google Maps API</span> to show the location
-                    of where the weather is being recorded.
+                    of where the weather is being recorded.</p>
                   </td>
                 </tr>
                 <tr>
@@ -101,11 +101,11 @@ class MainBody extends React.Component {
                     </a>
                   </td>
                   <td className="Project-info">
-                    An <span className="Projects-highlight">Open Source Project</span> for those who were part of one of the Udemy Courses
+                  <p>An <span className="Projects-highlight">Open Source Project</span> for those who were part of one of the Udemy Courses
                     I studied <a target="_blank" rel="noopener noreferrer" href="https://www.udemy.com/the-complete-web-developer-zero-to-mastery/">(Complete Web Developer 2019)</a>,
                     highlighting the current trends of technologies in the Full-Stack Web Development world and their popularity.
                     Responsible for <span className="Projects-highlight">building the modal</span> that lists the courses the students were partaking
-                    when contributing to the project.
+                    when contributing to the project.</p>
                   </td>
                 </tr>
               </tbody>
