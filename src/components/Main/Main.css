@@ -31,7 +31,7 @@ p {
 
 .About-highlight {
     display: inline;
-    color: #FD5D93;
+    background-color: rgba(253, 93, 146, 0.300);
 }
 
 #About > h2, #About a  {
@@ -45,7 +45,7 @@ p {
 
 .Projects-highlight {
     display: inline;
-    color: #5dc8fd;
+    background-color: hsla(200, 98%, 68%, 0.300);
 }
 
 #Projects > h2 {
@@ -103,5 +103,12 @@ td {
     #About a {
         font-weight: 300;
         text-decoration: underline;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 999px) {
+    #About a {
+        color: black;
     }
 }
