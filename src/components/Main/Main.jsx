@@ -66,7 +66,7 @@ class MainBody extends React.Component {
                   <a 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    href="https://gentle-citadel-27836.herokuapp.com/">
+                    href="https://jasonsveryownblog.herokuapp.com/">
                       Personal Blog
                   </a>
                   </td>

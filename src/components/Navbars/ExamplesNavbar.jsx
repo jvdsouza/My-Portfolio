@@ -130,7 +130,7 @@ class PagesNavbar extends React.Component {
 
               <NavItem>
                 <NavLink 
-                  href="https://gentle-citadel-27836.herokuapp.com/"
+                  href="https://jasonsveryownblog.herokuapp.com/"
                   target="_blank"
                 >
                   Blog
