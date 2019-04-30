@@ -17,7 +17,7 @@ class PageHeader extends React.Component {
             <h4>
             Fervently working on Javascript and Python projects
             </h4>
-            <a href="#main">
+            <a href="#main" aria-label="Go to the main section of my portfolio">
               <div className="animated-arrow animated infinite pulse">
                 <i className="fas fa-angle-down animated fadeInUp"></i>
               </div>

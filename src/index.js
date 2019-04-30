@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route} from "react-router-dom";
 
 import "assets/css/nucleo-icons.css";
@@ -15,3 +16,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
+serviceWorker.register();

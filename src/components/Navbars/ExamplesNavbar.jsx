@@ -70,6 +70,8 @@ class PagesNavbar extends React.Component {
           <div className="navbar-translate">
             <button
               aria-expanded={this.state.collapseOpen}
+              value="navbar-translate"
+              aria-label="navbar-translate"
               className="navbar-toggler navbar-toggler"
               onClick={this.toggleCollapse}
             >
@@ -93,6 +95,8 @@ class PagesNavbar extends React.Component {
                 <Col className="collapse-close text-right" xs="6">
                   <button
                     aria-expanded={this.state.collapseOpen}
+                    value="navbar-collapse"
+                    aria-label="navbar-collapse"
                     className="navbar-toggler"
                     onClick={this.toggleCollapse}
                   >
@@ -132,6 +136,7 @@ class PagesNavbar extends React.Component {
                 <NavLink 
                   href="https://jasonsveryownblog.herokuapp.com/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Blog
                 </NavLink>
