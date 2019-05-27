@@ -38,9 +38,17 @@ p {
     color: #FD5D93;
 }
 
+
 #About a {
     font-weight: 400;
     text-decoration: none;
+}
+
+#About .About-link {
+    font-weight: 300;
+    color: #FD5D93;
+    text-decoration: underline;
+    background-color: transparent;
 }
 
 .Projects-highlight {
